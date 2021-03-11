@@ -1,24 +1,20 @@
 {
 	"name": "hubzero/plg_groups_memberoptions",
-	"description": "Memberoptions plugin for the Groups component for the HUBzero CMS",
+	"description": "**Override** of HubZero Memberoptions plugin for the Groups component",
 	"type": "hubzero-plugin",
-	"keywords": ["hubzero"],
-	"homepage": "https://hubzero.org",
+	"keywords": ["hubzero", "qubeshub"],
+	"homepage": "https://qubeshub.org",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "HUBzero",
 			"email": "support@hubzero.org"
+		},
+		{
+			"name": "QUBESHub",
+			"email": "qubeshub@gmail.com"
 		}
 	],
-	"support": {
-		"email": "support@hubzero.org",
-		"issues": "https://help.hubzero.org"
-	},
-	"require": {
-		"php" : "^5.4",
-		"hubzero/com_groups": "dev-master"
-	},
 	"extra": {
 		"install-directory": "/plugins/groups/memberoptions/"
 	}
